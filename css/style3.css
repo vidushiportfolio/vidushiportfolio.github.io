@@ -6,11 +6,7 @@ body {
   color: #fff;
   overflow-x: hidden;
 }
-/*a{
-  position: relative;
-  z-index: 10;
-}
-*/i{
+i{
   font-size: 60%;
 }
 .contact{
