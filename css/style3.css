@@ -4,6 +4,7 @@ body {
   background-color:white;
   font-family: 'Playfair Display', serif;
   color: #fff;
+  overflow-x: hidden;
 }
 /*a{
   position: relative;
@@ -69,7 +70,7 @@ h1#rise {
   font-size: 8em;
   position: relative;
   text-shadow: 0px 4px 4px #000000; 
-  left: 18% !important;
+  left: 20% !important;
   z-index: -1;
   margin-top:-40%;
   padding: 0 auto;
