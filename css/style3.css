@@ -23,12 +23,6 @@ i{
   overflow: hidden;
   position: relative;
 }
-
-/*a
-{
-  position: relative;
-  z-index: 20;
-}*/
 #links
 {
   position:absolute;
