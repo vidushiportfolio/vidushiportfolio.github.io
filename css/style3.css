@@ -114,9 +114,7 @@ a{
 .layer-1 {
   background-image: url(../img/iphone.png);
   background-position: -20% 40%;
-   background-size: 45% 60%;
-
-}
+   background-size: 45% 60%;}
 
 .layer-2 {
   background-image: url(../img/eadphones.png);
