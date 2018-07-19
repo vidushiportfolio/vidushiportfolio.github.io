@@ -44,7 +44,7 @@ a:hover
   color: black;
 }
 a{
-  text-decoration:none;
+  text-decoration:none!important;
 }
 
 h1#just1
@@ -68,7 +68,7 @@ h1#rise {
   font-size: 8em;
   position: relative;
   text-shadow: 0px 4px 4px #000000; 
-  left: 20%;
+  left: 20%!important;
   z-index: -1;
   margin-top:-40%;
   padding: 0 auto;
