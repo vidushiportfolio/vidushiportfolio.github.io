@@ -43,6 +43,9 @@ a:hover
 {
   color: black;
 }
+a{
+  text-decoration:none;
+}
 h1#just1
 {
   color: black;
