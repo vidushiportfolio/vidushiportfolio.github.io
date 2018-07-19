@@ -5,6 +5,16 @@ body {
   font-family: 'Orbitron', serif;
   
 }
+ul
+{
+   font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-top: 5%;
+   letter-spacing: 1px;
+  font-family: serif;
+  text-align:justify;
+}
 p
 {
       font-size: 16px;
