@@ -146,6 +146,10 @@ svg
 #arc0{
       font-size: 1em;
     }
+    a .blogs
+    {
+      color:white;
+    }
 @media only screen and (max-width: 1000px) {
 #pngs
 {
@@ -186,7 +190,35 @@ margin-top:-150%;
   position: relative;
   top:0%;
 }
-
+a:hover
+{
+  text-decoration:underline;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width: 550px)
+{
+  #about_img
+  {
+    position:relative;
+left:-35%;
+width:40%;
+height:90%;
+margin-top:-30%;
+  }
+}
+@media only screen and (min-width: 212px) and (max-width: 342px)
+{
+  #about_img
+  {
+    display: none;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 700px)
+{
+  #about_img
+  {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1000px) 
 {
