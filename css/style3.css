@@ -5,6 +5,7 @@ body {
   font-family: 'Playfair Display', serif;
   color: #fff;
   overflow-x: hidden;
+  font-weight: normal!important;
 }
 i{
   font-size: 60%;
