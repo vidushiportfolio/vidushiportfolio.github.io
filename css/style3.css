@@ -69,7 +69,8 @@ h1#rise {
   padding: 0 auto;
   color: black;
 }
-h1#rise span {
+h1#rise span
+ {
   position: relative;
 }
 h1#rise span#i, h1#rise span#e,h1#rise span#f {
@@ -93,7 +94,8 @@ h1#rise span#i, h1#rise span#e,h1#rise span#f {
   height: 320px;
 }
 
-.first-section {
+.first-section
+ {
   padding: 50px 0 20px 0;
 }
 
