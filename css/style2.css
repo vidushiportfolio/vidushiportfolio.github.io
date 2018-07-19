@@ -2,9 +2,53 @@ body {
   padding: 0;
   margin: 0;
   background-color: #000000;
-  font-family: 'Playfair Display', serif;
-  color: #fff;
+  font-family: 'Orbitron', serif;
+  
 }
+p
+{
+      font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-top: 5%;
+  /*font-size: 2rem;*/
+  letter-spacing: 1px;
+  font-family: serif;
+  text-align:justify;
+}
+#section0
+{
+     color: black;
+}
+@namespace svgns url(http://www.w3.org/2000/svg);
+html,body,svg { height:100% }
+@namespace svgns url(http://www.w3.org/2000/svg);
+body{
+background-color:black;
+}
+svgns|a {
+  cursor: alias;
+}
+
+svgns|a text {
+  fill:white; /* Even for text, SVG use fill over color */
+  
+}
+
+svgns|a:hover, svgns|a:active {
+  text-shadow: 0px 2px 2px #ffffff;
+}
+
+.contact{
+  font-size: 4em;
+  text-shadow: 0px 4px 4px #000000;
+}
+
+.contact:hover
+{
+  text-shadow:none;
+}
+
 h4{
     
          z-index: 2;
@@ -49,19 +93,25 @@ h4{
 }
 .skills-front{
   background-image: url(../img/typewriter.png);
-  background-position: 95% 10%;
+  /*background-position: 95% 10%;*/
    background-size: 40% 55%;
+   background-position: 105% 10%;
 }
 /*.skills-back{
   background-image: url(../img/project_back2.jpg);
   background-position: 80% 10%;
    background-size: 50% 50%;
 }*/
-
+svg
+{
+  position:absolute;
+  left:80%;
+  z-index: 30;
+}
 
 .project-front {
   background-image: url(../img/project_front.gif);
-  background-position: 110% 10%;
+  background-position: 110% 40%;
    background-size: 50% 70%;
 }
 .blog-back-1 {
@@ -73,45 +123,79 @@ h4{
   background-image: url(../img/blog-back-2.png);
   background-size: 40% 50%;
   background-position: 100% 0%;
+
+  /*background-position: 100% 0%;*/
 }
 
 .blog-front {
   background-image: url(../img/blog_front.png);
   background-position:70% 50%;
+/*background-position: 20% 20%;*/
    background-size: 20% 20%;
 }
+#arc0{
+      font-size: 1em;
+    }
+@media only screen and (max-width: 1000px) {
+#pngs
+{
+  display: none;
+}
+.contact_svg
+{
+  display: none;
+}
+ li{
+  position: absolute;
+  left:-70%;
+  top:10%;
+  z-index: 20;
 
-/*.layer-2 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_02.png");
+}
+#about_img
+{
+position:relative;
+left:-35%;
+width:40%;
+height:90%;
+margin-top:-150%;
+}
+#about
+{
+  display: none;
+}
+#about_vidu
+{
+  display: block;
+  position: relative;
+  margin-left: -85%;
+
+}
+#p_mobile_abt
+{
+  position: relative;
+  top:0%;
 }
 
-.layer-3 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_man.png\a 		");
-  background-position: right bottom;
 }
-*/
-/*.layer-4 {
-  background-image: url(../img/bg_kid_scooter.png);
-}
-*/
-/*.layer-overlay {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_overlay.png\a 		");
-}
-*/
-@media only screen and (max-width: 768px) {
-  #hero {
-    display: none;
+@media only screen and (min-width: 1000px) 
+{
+  #about_img
+  {
+    position:relative;left:-35%;margin-top:-10%;
   }
-
-  #hero-mobile {
-    display: block;
-  }
+  #about_vidu
+{
+  display: none;
+  
 }
-.tutorial-link {
-  color: #fff;
-  font-size: 18px;
-  text-decoration: underline;
+#p_mobile_abt
+{
+  position: relative;
+  top:30%;
 }
-.tutorial-link:hover {
-  color: #ede0d5;
+svg
+{
+  display: none;
+}
 }

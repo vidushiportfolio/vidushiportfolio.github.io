@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+h4{
+    
+         z-index: 2;
+          font-family: 'Orbitron';
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #fefefe;
+    text-align:justify;
+    }
+    
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+}
+
+#hero-mobile {
+  display: none;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/full_illustration.png") no-repeat center bottom/cover;
+  height: 320px;
+}
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+
+
+#hero, .layer {
+  min-height: 800px;
+}
+.skills-front{
+  background-image: url(../img/typewriter.png);
+  background-position: 95% 10%;
+   background-size: 40% 55%;
+}
+/*.skills-back{
+  background-image: url(../img/project_back2.jpg);
+  background-position: 80% 10%;
+   background-size: 50% 50%;
+}*/
+
+
+.project-front {
+  background-image: url(../img/project_front.gif);
+  background-position: 110% 10%;
+   background-size: 50% 70%;
+}
+.blog-back-1 {
+  background-image: url(../img/blog_back.png);
+   background-size: 40% 50%;
+   background-position:100% 40%;
+}
+.blog-back-2 {
+  background-image: url(../img/blog-back-2.png);
+  background-size: 40% 50%;
+  background-position: 100% 0%;
+}
+
+.blog-front {
+  background-image: url(../img/blog_front.png);
+  background-position:70% 50%;
+   background-size: 20% 20%;
+}
+
+/*.layer-2 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_02.png");
+}
+
+.layer-3 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_man.png\a 		");
+  background-position: right bottom;
+}
+*/
+/*.layer-4 {
+  background-image: url(../img/bg_kid_scooter.png);
+}
+*/
+/*.layer-overlay {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_overlay.png\a 		");
+}
+*/
+@media only screen and (max-width: 768px) {
+  #hero {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+}
+.tutorial-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.tutorial-link:hover {
+  color: #ede0d5;
+}
