@@ -122,35 +122,13 @@ svg
   z-index: 30;
 }
 
-.project-front {
-  background-image: url(../img/project_front.gif);
-  background-position: 110% 40%;
-   background-size: 50% 70%;
-}
-.blog-back-1 {
-  background-image: url(../img/blog_back.png);
-   background-size: 40% 50%;
-   background-position:100% 40%;
-}
-.blog-back-2 {
-  background-image: url(../img/blog-back-2.png);
-  background-size: 40% 50%;
-  background-position: 100% 0%;
 
-  /*background-position: 100% 0%;*/
-}
-
-.blog-front {
-  background-image: url(../img/blog_front.png);
-  background-position:70% 50%;
-/*background-position: 20% 20%;*/
-   background-size: 20% 20%;
-}
 #arc0{
       font-size: 1em;
     }
  
 @media only screen and (max-width: 1000px) {
+
   p
 {
       font-size: 10px;
