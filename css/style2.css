@@ -2,9 +2,10 @@ body {
   padding: 0;
   margin: 0;
   background-color: #000000;
-  font-family: 'Orbitron', serif;
-  
+  /*font-family: 'Orbitron', serif;*/
+  font-size: 8px;
 }
+
 ul
 {
    font-size: 16px;
@@ -38,6 +39,8 @@ background-color:black;
 }
 svgns|a {
   cursor: alias;
+
+
 }
 
 svgns|a text {
@@ -146,6 +149,7 @@ svg
 #arc0{
       font-size: 1em;
     }
+
   
 @media only screen and (max-width: 1000px) {
   h4
@@ -198,7 +202,6 @@ margin-top: -60%;
   /*position: relative;
   top:0%;
   left:-20%;*/
-
 }
 a:hover
 {
