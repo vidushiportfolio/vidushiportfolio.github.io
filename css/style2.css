@@ -152,6 +152,7 @@ svg
 
   
 @media only screen and (max-width: 1000px) {
+  
   h4
   {
     font-size: 2rem;
@@ -185,6 +186,7 @@ display: none;
   display: block;
   position: relative;
   margin-left: -85%;
+  margin-top: 5%;
 }
 .about_p
 {
@@ -195,7 +197,7 @@ display: none;
 .reduce_margin
 {
 position: relative;
-margin-top: -60%;
+margin-top: -50%;
 }
 #p_mobile_abt
 {
