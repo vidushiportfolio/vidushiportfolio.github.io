@@ -181,13 +181,18 @@ display: none;
   display: block;
   position: relative;
   margin-left: -85%;
+}
 
+.about_p
+{
+  position: relative;
+  margin-left: -90%;
 }
 #p_mobile_abt
 {
-  position: relative;
+  /*position: relative;
   top:0%;
-  left:-20%;
+  left:-20%;*/
 
 }
 a:hover
