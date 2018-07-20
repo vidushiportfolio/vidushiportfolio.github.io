@@ -199,11 +199,11 @@ display: none;
   margin-left: -90% !important;
   /*margin-left: -180%;*/
 }
-.reduce_margin
+/*.reduce_margin
 {
 position: relative;
 margin-top: -50%;
-}
+}*/
 #p_mobile_abt
 {
   /*position: relative;
@@ -241,6 +241,7 @@ display: none;
   #about_img
   {
     display: none;
+    /*position:relative;left:-35%;margin-top:-10%;*/
   }
 }
 @media only screen and (min-width: 1000px) 
