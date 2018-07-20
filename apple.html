@@ -345,17 +345,20 @@
                 <div style="position: fixed;top:220%;left:8vw;text-align: center;width:50%">
                     <h4 class="reduce_margin">PROJECTS</h4>
                     <hr style="margin-top: 0px;border:1.5px solid #dafcff;box-shadow: 0px 0px 13px 2px rgba(0,131,177,0.77);">
-                    <p>
+                   
+                    <p >
+                        
                         <span style="font-family: Orbitron;text-decoration:underline; "> pyBoomBox</span>-.Keeping up with the technology in entertainment,this is the music poll web app.This
                         <!-- can be used in Restaurants,clubs and gyms which -->
                         allows customers to play the music of their own choice.
                         <br>
                         <span style="font-family: Orbitron;text-decoration:underline; ">Aurum Coin</span>- Captivated by Bitcoin,We are making our own cryptocurrency,based on the Blockchain technology.It is incorporated with the help of data structures.
                         <!-- and algorithms in python. -->
+                    
                     </p>
 
 
-
+                     
                     <img id="pngs" src="img/project_front.gif" ; class="img-responsive" style="position:fixed;top:210%;width:50%;height: 90%; left:50vw" />
                 </div>
             </div>
@@ -435,9 +438,50 @@
                 </div>
             </div>
         </div>
+        
+        <!-- these scripts are for opening next page on one scroll -->
         <script type="text/javascript" src="js/jquery.fullPage.js"></script>
         <script type="text/javascript" src="js/examples.js"></script>
-
+           
+         <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+          duration: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('.showcase-left', {
+          duration: 2000,
+          origin:'top',
+          distance:'300px'
+        });
+        sr.reveal('.showcase-right', {
+          duration: 2000,
+          origin:'right',
+          distance:'300px'
+        });
+        sr.reveal('.showcase-btn', {
+          duration: 2000,
+          delay: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('#testimonial div', {
+          duration: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('#text_projects', {
+          duration: 2000,
+          origin:'left',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+        sr.reveal('.info-right', {
+          duration: 2000,
+          origin:'right',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+    </script>
+        
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#fullpage').fullpage({
