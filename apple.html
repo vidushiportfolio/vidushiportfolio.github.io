@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <!-- scrollreveal.js library used -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -15,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="css/style2.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" href="css/style_svg.css">
+
+    <!-- to create ui animations I used wow.js -->
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
@@ -47,7 +51,11 @@
             height: 100%;
             /*margin:0 0 0 0;*/
         }
-        
+            
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <style type="text/css">
         @media all and (min-width: 620px) and (max-width: 800px) {
             #section1 .imgsContainer {
                 margin-top: -278px;
@@ -66,14 +74,7 @@
                 height: 464px;
             }
         }
-    </style>
 
-    <!-- scripted -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-
-    <style type="text/css">
         .contact {
             font-size: 14em;
             text-shadow: 0px 4px 4px #000000;
@@ -99,13 +100,16 @@
 <body>
 
     <div id="fullpage">
-        <!-- section0 -->
+
+        <!-- section0 for about -->
         <div class="section " id="section0">
 
-            <!-- navbar svg -->
+            
 
             <div id="p_mobile_abt" style="position: relative;width:30%;left: 40%;">
                 <h4 id="about" style="color: black">About</h4>
+
+                <!-- this small link section for mobile  -->
                 <h1 id="about_vidu">
                     <a style="color:black;font-size:16px;font-family: Orbitron " href="apple.html">  About  </a> <a style="color:black;font-size:16px;font-family: Orbitron" href="apple.html#section1"> Skills </a><a style="color:black;font-size:16px;font-family: Orbitron" href="https://drive.google.com/open?id=1sNvRxqyBBl-ZWgSvPwJZk_XlGQ3qULYt"> Certificates </a>
                     <a style="color:black;font-size:16px;font-family: Orbitron" href="apple.html#section3"> Blogs  </a>
@@ -126,7 +130,7 @@
 
             <img id="about_img" src="img/about.png" ; class="img-responsive" />
             <style type="text/css">
-                ul {}
+                
                 
                 .contact {
                     font-size: 4em;
@@ -146,6 +150,7 @@
                 }
             </style>
 
+            <!-- social media links -->
             <ul >
 
                 <li class="contact " style="top:32%">
@@ -161,7 +166,7 @@
 
                     </div>
                 </li>
-                
+
 
                 <li class="contact" style="top:45%">
                     <div class="wow zoomIn" data-wow-duration="1.0s" data-wow-delay="0.5s">
@@ -183,10 +188,10 @@
             </ul>
         </div>
 
-        <!-- section1 -->
+        <!-- section1 for skills -->
 
         <div class="section" id="section1">
-
+            <!-- this is the navbar for mobile version made uing svgs -->
             <svg id="arc0" style="position:absolute;z-index: 10" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                 <line x1="20%" y1="0%" x2="20%" y2="100%" style="stroke:rgb(255,255,255);stroke-width:3" />
@@ -244,7 +249,7 @@
             </svg>
 
             <div class="wrap">
-                <!-- left blog  -->
+                
                 <div id="skills">
 
                     <img id="pngs" src="imgs/tabImg.png" ; class="img-responsive" style="position:fixed;top:110%;width:60%;left:5vw" />
@@ -277,15 +282,16 @@
                         </div>
                     </div>
 
-
+                     <!-- typewriter image in the right -->
                     <img id="pngs" id="pngs_scroll" src="img/typewriter.png" ; class="img-responsive" style="position:fixed;top:110%;width:30%;left:60vw" />
 
                 </div>
             </div>
         </div>
 
-        <!-- section2 -->
+        <!-- section2 for projects -->
         <div class="section moveDown" id="section2">
+            <!-- this is the navbar for mobile version made uing svgs -->
             <svg id="arc0" style="position:absolute;z-index: 10" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <line x1="20%" y1="0%" x2="20%" y2="100%" style="stroke:rgb(255,255,255);stroke-width:3" />
                 <a xlink:href="apple.html#section0">
@@ -341,7 +347,7 @@
                 </defs>
             </svg>
             <div class="wrap">
-                <!-- left blog  -->
+                
                 <img id="pngs" src="imgs/tabImg.png" ; class="img-responsive" style="position:fixed;top:210%;width:60%;left:5vw">
                 <div style="position: fixed;top:220%;left:8vw;text-align: center;width:50%">
                     <h4 class="reduce_margin">PROJECTS</h4>
@@ -359,14 +365,15 @@
                     </p>
 
 
-                     
+                     <!-- iphone gif in the right -->
                     <img id="pngs" src="img/project_front.gif" ; class="img-responsive" style="position:fixed;top:210%;width:50%;height: 90%; left:50vw" />
                 </div>
             </div>
         </div>
 
-        <!-- section 3 -->
+        <!-- section 3 for blogs -->
         <div class="section moveDown" id="section3">
+            <!-- this is the navbar for mobile version made uing svgs -->
             <svg id="arc0" style="position:absolute;z-index: 10" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <line x1="20%" y1="0%" x2="20%" y2="100%" style="stroke:rgb(255,255,255);stroke-width:3" />
                 <a xlink:href="apple.html#section0">
@@ -422,7 +429,7 @@
                 </defs>
             </svg>
             <div class="wrap">
-                <!-- left blog  -->
+                
                 <img id="pngs" src="imgs/tabImg.png" ; class="img-responsive" style="position:fixed;top:310%;width:60%;left:5vw">
                 <div style="position: fixed;top:320%;left:8vw;text-align: center;width:50%">
                     <h4 class="reduce_margin">MY BLOGS</h4>
@@ -432,7 +439,7 @@
                         <a style="color: white;font-size: 20px;font-family:'Orbitron'" href="https://drive.google.com/open?id=1aNbzpEqU5BgagLvQgoivPmX9X0kFp9PiacvJcvuzYUY">Modi |e| </a>
                     </p>
 
-
+                     <!-- these are the different pngs used in the right -->
                     <img id="pngs" src="img/blog_front.png" ; class="img-responsive" style="position:fixed;z-index: 2; top:340%;width:25%;height: 35%; left:48vw" />
                     <img id="pngs" src="img/blog_back.png" ; class="img-responsive" style="position:fixed;top:320%;width:50%;height: 65%; left:52vw" />
                     <img id="pngs" src="img/blog-back-2.png" ; class="img-responsive" style="position:fixed;top:280%;width:45%;height: 90%; left:54vw" />
@@ -440,10 +447,11 @@
             </div>
         </div>
         
-        <!-- these scripts are for opening next page on one scroll -->
+        <!-- these scripts are for opening next page on one scroll,as the highlight here is advanced scroll  -->
         <script type="text/javascript" src="js/jquery.fullPage.js"></script>
         <script type="text/javascript" src="js/examples.js"></script>
-           
+        
+        <!-- this are few animations revealed on scrolling using scrollreveal   -->
          <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', {
@@ -482,7 +490,7 @@
           viewFactor: 0.2
         });
     </script>
-        
+        <!-- these scripts are for opening next page on one scroll,as the highlight here is advanced scroll  -->
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#fullpage').fullpage({
@@ -513,6 +521,8 @@
             });
         </script>
         <script src="js/index.js"></script>
+   
+
 
 </body>
 </html>
