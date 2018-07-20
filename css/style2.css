@@ -186,7 +186,7 @@ display: none;
 .about_p
 {
   position: relative;
-  margin-left: -90%;
+  margin-left: -90%!important;
 }
 
 #p_mobile_abt
