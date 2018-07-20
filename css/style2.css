@@ -148,6 +148,10 @@ svg
     }
   
 @media only screen and (max-width: 1000px) {
+  h4
+  {
+    font-size: 2rem;
+  }
 #pngs
 {
   display: none;
@@ -165,11 +169,8 @@ svg
 }
 #about_img
 {
-position:relative;
-left:-35%;
-width:40%;
-height:90%;
-margin-top:-150%;
+display: none;
+
 }
 #about
 {
@@ -186,6 +187,8 @@ margin-top:-150%;
 {
   position: relative;
   top:0%;
+  left:-20%;
+
 }
 a:hover
 {
