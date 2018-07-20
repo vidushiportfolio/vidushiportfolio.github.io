@@ -188,7 +188,11 @@ display: none;
   margin-left: -90% !important;
   /*margin-left: -180%;*/
 }
-
+.reduce_margin
+{
+position: relative;
+margin-top: -60%;
+}
 #p_mobile_abt
 {
   /*position: relative;
